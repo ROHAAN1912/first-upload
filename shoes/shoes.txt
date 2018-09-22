@@ -1,0 +1,10 @@
+shoe1 =men gym shoes
+shoe2 =PU leather ankle boots
+shoe3 =Gucci men loafers
+shoe6 =casual man shoes
+shoe5 =Borjan shoes
+shoe4 =Sandal
+shoe7=Homemade sandal
+shoe8=debenhams stylish shoes
+shoe9=Handmade loafer
+shoe10=Chappal

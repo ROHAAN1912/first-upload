@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="CSS/index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster"rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" /> -->
+
+
+</head>
+<body>
+    <!-- Main Div for Header -->
+    <div id="start-header">
+        <!-- Sub heading -->
+        <div id="sub-header">
+            <div id="header-one">Pakistan's best online shopping place </div>
+            <div id="header-two">
+                <a href="#footer-sub-2">Contact</a>
+                <a href="policies.html" target="_target">Policies</a>
+                <a href="more-about-us.html" target="_blank">More About Us</a>
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+        <!-- Main heading -->
+        <div class="checking">
+            <div id="main-header">
+                <span id="first">My</span>
+                <span id="second">Shop.com</span>
+            </div>
+            <div style="width:39%;background-color: cornflowerblue"></div>
+            <!-- Cart and login -->
+            <div id="user-menu">
+                <li>
+                    <a href="e-cart.html">Cart(<b id="alter">0</b>)</a>
+                </li>
+                <li>
+                    <a href="#">Login</a>
+                </li>
+            </div>
+            <div style="width:10%;background-color:cornflowerblue"></div>
+        </div>
+         <!-- Navigation bar -->
+         <div id="navigation">
+            <nav id="navigation-one">
+                <a href="men-fashion.html">Clothes</a>
+                <a href="men-mobile.html">Mobiles</a>
+                <a href="men-shoes.html">Shoes</a>
+                <a href="men-watch.html">Watches</a>
+                <a href="sale.html">Deals<b>/</b>Sale</a>
+            </nav>
+     </div>
+    </div>
+    <!-- finish header -->
+
+    <!-- Image slider -->
+    <div style="text-align: center" style="margin-top:20px" id="change">
+            <div id="slider">
+    
+            </div>
+            <a href="javascript:void(0);" onClick="showPrevious();"><i class="fas fa-less-than" id="font"></i>
+
+            </a>
+            <a href="javascript:void(0);" onClick="showNext();"> <i class="fas fa-greater-than" id="font"></i>
+
+            </a>
+            <div>
+                <!--<div id="counter"> </div>-->
+            </div>
+        </div>
+
+
+    <!-- Main div for categories -->
+    <div id="next-part">
+        <!-- Category Heading -->
+        <div id="categories">
+            <h2>Category</h2>
+        </div>
+        <!-- CAtegory boxes -->
+        <!-- 1 -->
+        <div id="again-checking">
+        <a href="men-fashion.html">
+            <div class="catboxes">
+                <img src="cat-images/men.jpg" alt="Men Fashion">
+                <span>
+                    Men Fashion
+                </span>
+            </div>
+        </a>
+        <!-- 2 -->
+        <a href="men-watch.html">
+            <div class="catboxes">
+                <img src="cat-images/watch.jpg" alt="Men Watches">
+                <span>
+                    Men Watches
+                </span>
+            </div>
+        </a>
+        <!-- 3 -->
+        <a href="men-mobile.html">
+            <div class="catboxes">
+                <img src="cat-images/mobiles.jpg" alt="Mobiles">
+                <span>
+                    Mobiles
+                </span>
+            </div>
+        </a>
+        <!-- 4 -->
+        <a href="men-shoes.html">
+            <div class="catboxes">
+                <img src="cat-images/shoes.jpg" alt="Men Shoes">
+                <span>
+                    Men Shoes
+                </span>
+            </div>
+        </a>
+        <a href="sale.html">
+            <div class="catboxes">
+                <img src="cat-images/sale.jpg" alt="Men Shoes">
+                <span>
+                    Sale
+                </span>
+            </div>
+        </a>
+        </div>
+    </div>
+    <!-- Finished category part -->
+
+    <!-- Products part but used the same Div for <h2> to inherit styling used before -->
+    <div id="prod-heading">
+        <h2>Top Products</h2>
+    </div>
+
+
+    <!-- Main div for Top products section -->
+    <div id="prod-container">
+
+        <!-- Div for Product boxes -->
+        <!-- 1 product -->
+        <div id="checkCheck">
+        <div id="prod-box">
+            <a href="men-fashion.html">
+                    <img src="men-fashion/fashion2.jpg" alt="Man Suit">
+
+                    <!-- Div for applying transitions on product boxes -->
+                    <div id="prod-trans">
+
+                        <!-- Div for the description of product when we hover on it -->
+                        <div id="prod-feature">
+                            <p>Man Velvet Coat</p>
+                            <p style="color:#fff;font-weight:bold;">Price :RS 5000</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 2 Product -->
+        <div id="prod-box">
+                <a href="men-mobile.html">
+                        <img src="mobiles/mobile3.jpg" alt="Mobile">
+                        <div id="prod-trans">
+                            <div id="prod-feature">
+                                <p>Samsung J6</p>
+                                <p style="color:#fff;font-weight:bold;">Price :RS 23999</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- 3 Product -->
+            <div id="prod-box">
+                    <a href="men-shoes.html">
+                            <img src="shoes/shoes5.jpg" alt="Shoes" width="236px" height="254px">
+                            <div id="prod-trans">
+                                <div id="prod-feature">
+                                    <p>Borjan Shoes</p>
+                                    <p style="color:#fff;font-weight:bold;">Price :RS 2500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 4 Product -->
+                <div id="prod-box">
+                        <a href="men-watch.html">
+                                <img src="watches/watch1.jpg" alt="Watch" width="235px" height="254px">
+                                <div id="prod-trans">
+                                    <div id="prod-feature">
+                                        <p>Emporio Armani AR451</p>
+                                        <p style="color:#fff;font-weight:bold;">Price :RS 7500</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+            </div>
+    </div>
+    <!-- Finished top products section -->
+
+    <!-- Main Div for footer section -->
+    <div id="footer">
+
+        <!-- broken the main Div of footer into different Divs -->
+
+        <!-- part 1 -->
+        <div id="footer-sub">
+            <h2>From the Creator</h2>
+            <p>This is my first ever E-commerce site that I have made using HTML , Css and Javascript for which I am very thankful to my teachers especially <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan and Sir Tahir</b>  without them it was not possible. So a big thanks to the teachers for making great efforts...</p>
+        </div>
+
+        <!-- part 2 -->
+        <div id="footer-sub-2">
+            <h2>Our Outlets</h2>
+            <ul>
+                <li><a href="karachi-location.html">Karachi</a></li>
+                <li><a href="#">Lahore</a></li>
+                <li><a href="#">Islamabad</a></li>
+                <li><a href="#">Hyderabad</a></li>
+                <li><a href="#">Peshawar</a></li>
+            </ul>
+        </div>
+        <div id="footer-sub-2">
+                <h2>Social Links</h2>
+                <ul>
+                    <li><a href="https://web.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+                    <li><a href="https://www.yahoo.com">Yahoo</a></li>
+                    <li><p onclick="pop()">Whatsapp Num</p></li>
+                </ul>
+            </div>
+    </div>
+
+    
+    
+    
+</body>
+<script>
+    var images = ["slider.jpg","slider2.jpg", "slider3.jpg", "slider4.jpg"];
+        var href=["more-about-us.html","policies.html","karachi-location.html","practice.html"]
+        var totalImages = 4;
+        var currentImage = 0;
+        var next = true;
+        showNext();
+        setInterval(function () {
+            showNext();
+        }, 3000)
+        function showNext() {
+            if (!next) currentImage++;
+            if (currentImage == totalImages) currentImage = 0;
+            document.getElementById("slider").innerHTML = "<a href='"+href[currentImage] +"'><img src='images/" + images[currentImage] + "' class='setValue' /></a>"
+            currentImage++;
+            next = true;
+        }
+        function showPrevious() {
+            if (next) currentImage--;
+            if (currentImage == 0) currentImage = totalImages;
+            document.getElementById("slider").innerHTML = "<a href='"+href[currentImage-1]+"'><img src='images/" + images[currentImage - 1] + "' class='setValue' /></a>"
+            currentImage--;
+            next = false;
+        }
+
+
+
+
+        
+
+
+
+</script>
+<script src="pop.js"></script>
+</html>

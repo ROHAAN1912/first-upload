@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="CSS/display-fashion.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster"rel="stylesheet">
+</head>
+<body>
+     <!-- Main Div for Header -->
+     <div id="start-header">
+            <!-- Sub heading -->
+            <div id="sub-header">
+                <div id="header-one">Pakistan's best online shopping place </div>
+                <div id="header-two">
+                    <a href="#footer-sub-2">Contact</a>
+                    <a href="policies.html" target="_target">Policies</a>
+                    <a href="more-about-us.html" target="_blank">More About Us</a>
+                    <a href="index.html">Home</a>
+                </div>
+            </div>
+            <!-- Main heading -->
+            <div class="checking">
+                <div id="main-header">
+                    <span id="first">My</span>
+                    <span id="second">Shop.com</span>
+                </div>
+                <div style="width:39%;background-color: cornflowerblue"></div>
+                <!-- Cart and login -->
+                <div id="user-menu">
+                    <li>
+                            <a href="e-cart.html">Cart(<b id="alter">0</b>)</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </div>
+                <div style="width:10%;background-color:cornflowerblue"></div>
+            </div>
+            <!-- Navigation bar -->
+            <div id="navigation">
+                <nav id="navigation-one">
+                    <a href="men-fashion.html">Clothes</a>
+                    <a href="men-mobile.html">Mobiles</a>
+                    <a href="men-shoes.html">Shoes</a>
+                    <a href="men-watch.html">Watches</a>
+                    <a href="sale.html">Deals<b>/</b>Sale</a>
+                </nav>
+         </div>
+        </div>
+        <!-- finish header -->
+
+
+
+
+
+
+
+        <div id="display">
+            <h1 id="heading"></h1>
+            <img id="shoes" src="" alt="">
+            <p id="price"></p>
+            <div id="button"></div>
+        </div>
+
+
+
+
+
+
+        <div id="next-part">
+            <!-- Category Heading -->
+            <div id="categories">
+                <h2>Have a look on these too...</h2>
+            </div>
+            <!-- CAtegory boxes -->
+            <!-- 1 -->
+            <div id="again-checking">
+            <a href="men-fashion.html">
+                <div class="catboxes">
+                    <img src="cat-images/men.jpg" alt="Men Fashion">
+                    <span>
+                        Men Fashion
+                    </span>
+                </div>
+            </a>
+            <!-- 2 -->
+            <a href="men-watch.html">
+                <div class="catboxes">
+                    <img src="cat-images/watch.jpg" alt="Men Watches">
+                    <span>
+                        Men Watches
+                    </span>
+                </div>
+            </a>
+            <!-- 3 -->
+            <a href="men-mobile.html">
+                <div class="catboxes">
+                    <img src="cat-images/mobiles.jpg" alt="Mobiles">
+                    <span>
+                        Mobiles
+                    </span>
+                </div>
+            </a>
+            <!-- 4 -->
+            <!-- <a href="#">
+                <div class="catboxes">
+                    <img src="cat-images/shoes.jpg" alt="Men Shoes">
+                    <span>
+                        Men Shoes
+                    </span>
+                </div>
+            </a> -->
+            <!-- <a href="#">
+                <div class="catboxes">
+                    <img src="cat-images/sale.jpg" alt="Men Shoes">
+                    <span>
+                        Sale
+                    </span>
+                </div>
+            </a>
+            </div> -->
+        </div>
+        <!-- Finished category part -->
+         <!-- Main Div for footer section -->
+    <div id="footer">
+
+            <!-- broken the main Div of footer into different Divs -->
+    
+            <!-- part 1 -->
+            <div id="footer-sub">
+                <h2>From the Creator</h2>
+                <p>This is my first ever E-commerce site that I have made using HTML , Css and Javascript for which I am very thankful to my teachers especially <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan and Sir Tahir</b>  without them it was not possible. So a big thanks to the teachers for making great efforts...</p>
+            </div>
+    
+            <!-- part 2 -->
+            <div id="footer-sub-2">
+                <h2>Our Outlets</h2>
+                <ul>
+                    <li><a href="karachi-location.html">Karachi</a></li>
+                    <li><a href="#">Lahore</a></li>
+                    <li><a href="#">Islamabad</a></li>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a href="#">Peshawar</a></li>
+                </ul>
+            </div>
+            <div id="footer-sub-2">
+                    <h2>Social Links</h2>
+                    <ul>
+                        <li><a href="https://web.facebook.com">Facebook</a></li>
+                        <li><a href="https://www.instagram.com">Instagram</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+                        <li><a href="https://www.yahoo.com">Yahoo</a></li>
+                        <li><p onclick="pop()">Whatsapp Num</p></li>
+                    </ul>
+                </div>
+        </div>
+
+        <script>
+
+if(localStorage.getItem("favourite")==null||localStorage.getItem("favourite")==""){localStorage.setItem("favourite","")}
+           
+            var details=[
+
+                {name:"Men Gym Shoes",src:"shoes/shoes1.jpg",price:"2000"},
+                {name:"PU Leather Boots",src:"shoes/shoes2.jpg",price:"2500"},
+                {name:"Gucci Men Loafers",src:"shoes/shoes3.jpg",price:"2500"},
+                {name:"Men Sandal",src:"shoes/shoes4.jpg",price:"2200"},
+                {name:"Borjan Chappal",src:"shoes/shoes5.jpg",price:"1500"},
+                {name:"Casual Man Shoes",src:"shoes/shoes6.jpg",price:"2000"},
+                {name:"Homemade Sandal (Men)",src:"shoes/shoes7.jpg",price:"2500"},
+                {name:"Debenhams Shoes",src:"shoes/shoes8.jpg",price:"3000"},
+                {name:"Handmade Loafer (Men)",src:"shoes/shoes9.jpg",price:"3500"},
+                {name:"Men Chappal",src:"shoes/shoes10.jpg",price:"3000"}
+
+            ]
+            console.log(details);
+
+            var store3=localStorage.getItem("ProdID");
+            document.getElementById("shoes").setAttribute("src",details[store3].src);
+            document.getElementById("heading").innerHTML=details[store3].name;
+            document.getElementById("price").innerHTML=details[store3].price;
+
+            document.getElementById("button").innerHTML="<button id='cart' onclick='add("+store3+")'>Add to cart</button>"
+
+            function add(id){
+                if(localStorage.getItem("favourite")==""){
+                    var array=[id];
+                    console.log(array);
+                    array=JSON.stringify(array);
+                    console.log(array)
+                    localStorage.setItem("favourite",array)
+                }
+                else if(localStorage.getItem("favourite")!=""){
+                    var array=JSON.parse(localStorage.getItem("favourite"))
+                    
+                    if(array.indexOf(id)== -1){
+                        var newArray =[...array,id];
+                        newArray=JSON.stringify(newArray);
+                        console.log(newArray)
+                        localStorage.setItem("favourite",newArray)
+                    }
+
+                   
+                }
+                alert("Your item has been added to your cart. Check your cart to see it");
+                location.reload(true);
+            }
+
+
+            
+        </script>
+</body>
+<script src="pop.js"></script>
+</html>

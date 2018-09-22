@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="CSS/men-fashion.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster"rel="stylesheet">
+</head>
+<body>
+
+    <!-- Main Div for Header -->
+    <div id="start-header">
+            <!-- Sub heading -->
+            <div id="sub-header">
+                <div id="header-one">Pakistan's best online shopping place </div>
+                <div id="header-two">
+                    <a href="#footer-sub-2">Contact</a>
+                    <a href="policies.html" target="_target">Policies</a>
+                    <a href="more-about-us.html" target="_blank">More About Us</a>
+                    <a href="index.html">Home</a>
+                </div>
+            </div>
+            <!-- Main heading -->
+            <div class="checking">
+                <div id="main-header">
+                    <span id="first">My</span>
+                    <span id="second">Shop.com</span>
+                </div>
+                <div style="width:39%;background-color: cornflowerblue"></div>
+                <!-- Cart and login -->
+                <div id="user-menu">
+                    <li>
+                            <a href="e-cart.html">Cart(<b id="alter">0</b>)</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </div>
+                <div style="width:10%;background-color:cornflowerblue"></div>
+            </div>
+            <!-- Navigation bar -->
+            <div id="navigation">
+                <nav id="navigation-one">
+                    <a href="men-fashion.html">Clothes</a>
+                    <a href="men-mobile.html">Mobiles</a>
+                    <a href="men-shoes.html">Shoes</a>
+                    <a href="men-watch.html">Watches</a>
+                    <a href="sale.html">Deals<b>/</b>Sale</a>
+                </nav>
+         </div>
+        </div>
+        <!-- finish header -->
+
+
+
+
+
+        <div id="items">
+            <h1 id="heading">Men Shoes</h1>
+            <ul id="change">
+                <li><h1>
+                    Men Gym Shoes
+                </h1> 
+                    <img onclick="gotoprod3(0)" id="shoes" src="shoes/shoes1.jpg" alt="Shoe1" ></li>
+                <li><h1>
+                    PU Leather Boots
+                    </h1> <img onclick="gotoprod3(1)" id="shoes" src="shoes/shoes2.jpg" alt="Shoe2"></li>
+                <li> <h1>
+                    Gucci Men Loafers
+                    </h1><img onclick="gotoprod3(2)" id="shoes" src="shoes/shoes3.jpg" alt="Shoe3"></li>
+                <li><h1>
+                    Men Sandal
+                    </h1> <img onclick="gotoprod3(3)" id="shoes" src="shoes/shoes4.jpg" alt="Shoe4"></li>
+            </ul>
+            
+            <ul id="change">
+                    <li><h1>
+                        Borjan Chappal
+                    </h1> 
+                        <img onclick="gotoprod3(4)" id="shoes" src="shoes/shoes5.jpg" alt="Shoe5"></li>
+                    <li><h1>
+                        Casual Man Shoes
+                        </h1> <img onclick="gotoprod3(5)" id="shoes" src="shoes/shoes6.jpg" alt="Shoe6"></li>
+                    <li> <h1>
+                        Homemade Sandal (Men)
+                        </h1><img onclick="gotoprod3(6)" id="shoes" src="shoes/shoes7.jpg" alt="Shoe7"></li>
+                    <li><h1>
+                        Debenhams Shoes
+                        </h1> <img onclick="gotoprod3(7)" id="shoes" src="shoes/shoes8.jpg" alt="Shoe8"></li>
+                </ul>
+                <ul id="change">
+                        <li><h1>
+                        Handmade Loafer (Men)
+                        </h1> 
+                            <img onclick="gotoprod3(8)" id="shoes" src="shoes/shoes9.jpg" alt="Shoe9" ></li>
+                        <li><h1>
+                            Men Chappal
+                            </h1> <img onclick="gotoprod3(9)" id="shoes" src="shoes/shoes10.jpg" alt="Shoe10"></li>
+                    </ul>
+        </div>
+
+
+
+
+        
+
+
+        <!-- Main Div for footer section -->
+    <div id="footer">
+
+            <!-- broken the main Div of footer into different Divs -->
+    
+            <!-- part 1 -->
+            <div id="footer-sub">
+                <h2>From the Creator</h2>
+                <p>This is my first ever E-commerce site that I have made using HTML , Css and Javascript for which I am very thankful to my teachers especially <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan and Sir Tahir</b>  without them it was not possible. So a big thanks to the teachers for making great efforts...</p>
+            </div>
+    
+            <!-- part 2 -->
+            <div id="footer-sub-2">
+                <h2>Our Outlets</h2>
+                <ul>
+                    <li><a href="karachi-location.html">Karachi</a></li>
+                    <li><a href="#">Lahore</a></li>
+                    <li><a href="#">Islamabad</a></li>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a href="#">Peshawar</a></li>
+                </ul>
+            </div>
+            <div id="footer-sub-2">
+                    <h2>Social Links</h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Yahoo</a></li>
+                        <li><a href="#">Whatsapp Num</a></li>
+                    </ul>
+                </div>
+        </div>
+    <script>
+
+
+        function gotoprod3(prodID){
+            localStorage.setItem("ProdID",prodID);
+            location.href="display-shoes.html";
+        }
+    </script>
+</body>
+<script src="pop.js"></script>
+</html>

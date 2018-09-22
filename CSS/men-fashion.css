@@ -1,0 +1,228 @@
+/* Styling body */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styling sub-header */
+#sub-header{
+    width: 100%;
+    background-color: dodgerblue;
+    height: 50px;
+    display: flex;
+}
+
+/* Styling for the tagline of websites */
+#header-one{
+    color: black;
+    font-family: Cookie;
+    margin-left: 10%;
+    font-size: 32px;
+}
+#header-two{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    margin-left: 26%;
+}
+
+/* Styling for the links of sub-header */
+#header-two a{
+    color: white;
+    text-decoration: none;
+    line-height: 43px;
+    margin-left: 30px;
+    font-size: 19px;
+    margin-right: 30px;
+    transition: all 0.5s ease;
+}
+
+/* Styling for hovering on links of sub-header */
+#header-two a:hover{
+    transition: all 0.5s ease;
+    color :black;
+    font-size: 20px;
+}
+
+/* Styling for main header */
+#main-header{
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 87px;
+}
+
+/* Styling for logo of site */
+#first{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 75px;
+    font-family: cursive;
+}
+
+/* Logo styling */
+#second{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:cursive;
+}
+
+.checking{
+    width:100%;
+    background-color:cornflowerblue;
+    display:flex;
+    flex-direction: row;
+}
+
+/* Styling of cart/login links */
+#user-menu{
+    width:21%;
+      height:59px;
+      display:flex;
+      align-self: center;
+      background-color:cornflowerblue; 
+}
+
+/* Styling for lines(especially) of cart/login */
+#user-menu li{
+    width: 149px;
+    text-align: center;
+    font-size: 40px;
+    list-style: none;
+    border-left: 2px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Styling for hovering on lines of cart./login button */
+#user-menu li:hover{
+    font-size: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Styling on the links in <li> of cart/login  */
+#user-menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling for Navigation tag */
+#navigation{
+    width: 100%;
+    height: 35px;
+    background-color: cornflowerblue;
+}
+
+/* Nav tag styling */
+nav{
+    width: 1280px;
+    margin-left: 14px;
+    font-size: 23px;
+}
+
+/* Styling of links of <nav> tag */
+nav a{
+margin-left: 4%;
+color: white;
+text-decoration: none;
+}
+
+/* Styling on hovering on <nav> links */
+nav a:hover{
+color: #000;
+transition: all .7s ease;
+}
+
+
+
+
+/* Styling for main Div of footer */
+#footer{
+    width: 100%;
+    height:auto;
+    /* float: left; */
+    background-color: black;
+    display: flex;
+}
+
+/* Styling of part 1 of Main Footer */
+#footer-sub{
+    width: 25%;
+    margin-left: 72px;
+    /* float: left */
+}
+#footer-sub p{
+    color: white;
+    text-align: justify;
+}
+#footer-sub h2{
+    color: white;
+    font-size: 38px; 
+    font-family: Lobster;
+}
+.color{
+    font-style: italic;
+    color: aquamarine;
+}
+
+/* Styling of part 2 of Main Footer */
+#footer-sub-2{
+    /* float: left; */
+    width: 20%;
+    margin-left:130px;
+    text-align: center;
+}
+#footer-sub-2 h2{
+    color: white;
+    font-size: 38px; 
+    font-family: Lobster;
+}
+#footer-sub-2 ul li{
+    list-style: none;
+}
+#footer-sub-2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-sub-2 ul li p{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+}
+#footer-sub-2 a{
+    font-size: 20px;
+}
+#footer-sub-2 a:hover{
+    text-decoration: underline;
+
+}
+
+#change{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    flex-wrap: wrap;
+}
+#change li h1{
+    text-align: center;
+    font-size: 24px;
+}
+#items{
+    background-color: lightgrey;
+    margin-top: -16px;
+    margin-bottom: -16px;
+}
+#change li{
+    margin-top: 20px;
+}
+
+#heading{
+    /* font-style: italic; */
+    font-family: Lobster;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 16px;
+    text-decoration: underline;
+}

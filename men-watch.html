@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="CSS/men-fashion.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster"rel="stylesheet">
+</head>
+<body>
+
+    <!-- Main Div for Header -->
+    <div id="start-header">
+            <!-- Sub heading -->
+            <div id="sub-header">
+                <div id="header-one">Pakistan's best online shopping place </div>
+                <div id="header-two">
+                    <a href="#footer-sub-2">Contact</a>
+                    <a href="policies.html" target="_target">Policies</a>
+                    <a href="more-about-us.html" target="_blank">More About Us</a>
+                    <a href="index.html">Home</a>
+                </div>
+            </div>
+            <!-- Main heading -->
+            <div class="checking">
+                <div id="main-header">
+                    <span id="first">My</span>
+                    <span id="second">Shop.com</span>
+                </div>
+                <div style="width:39%;background-color: cornflowerblue"></div>
+                <!-- Cart and login -->
+                <div id="user-menu">
+                    <li>
+                            <a href="e-cart.html">Cart(<b id="alter">0</b>)</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li>
+                </div>
+                <div style="width:10%;background-color:cornflowerblue"></div>
+            </div>
+            <!-- Navigation bar -->
+            <div id="navigation">
+                <nav id="navigation-one">
+                    <a href="men-fashion.html">Clothes</a>
+                    <a href="men-mobile.html">Mobiles</a>
+                    <a href="men-shoes.html">Shoes</a>
+                    <a href="men-watch.html">Watches</a>
+                    <a href="sale.html">Deals<b>/</b>Sale</a>
+                </nav>
+         </div>
+        </div>
+        <!-- finish header -->
+
+
+
+
+
+        <div id="items">
+            <h1 id="heading">Men Watches</h1>
+            <ul id="change">
+                <li><h1>
+                    Emporio Armani AR451
+                </h1> 
+                    <img onclick="gotoprod2(0)" id="watches" src="watches/watch1.jpg" alt="Watch1" ></li>
+                <li><h1>
+                    Police Watch (Men)
+                    </h1> <img onclick="gotoprod2(1)" id="watches" src="watches/watch2.jpeg" alt="Watch2"></li>
+                <li> <h1>
+                    Tissot Le Locle Watch
+                    </h1><img onclick="gotoprod2(2)" id="watches" src="watches/watch3.jpg" alt="Watch3"></li>
+                <li><h1>
+                    Deep Sea Dive Rolex
+                    </h1> <img onclick="gotoprod2(3)" id="Watches" src="watches/watch4.jpg" alt="Watch4"></li>
+            </ul>
+            
+            <ul id="change">
+                    <li><h1>
+                        Rado Stylish Watch
+                    </h1> 
+                        <img onclick="gotoprod2(4)" id="watches" src="watches/watch5.jpg" alt="Watch5"></li>
+                    <li><h1>
+                        Swiss Antique Watch
+                        </h1> <img onclick="gotoprod2(5)" id="watches" src="watches/watch6.jpg" alt="Watch6"></li>
+                    <li> <h1>
+                        Forsing Luxuxry Watch
+                        </h1><img onclick="gotoprod2(6)" id="watches" src="watches/watch7.jpg" alt="Watch7"></li>
+                    <li><h1>
+                        Casio G-Shock
+                        </h1> <img onclick="gotoprod2(7)" id="watches" src="watches/watch8.jpg" alt="Watch8"></li>
+                </ul>
+                <ul id="change">
+                        <li><h1>
+                        Wooden Themed Watch
+                        </h1> 
+                            <img onclick="gotoprod2(8)" id="watches" src="watches/watch9.jpg" alt="Watch9" ></li>
+                        <li><h1>
+                        Silver Titanium Watch
+                            </h1> <img onclick="gotoprod2(9)" id="watches" src="watches/watch10.jpg" alt="Watch10"></li>
+                    </ul>
+        </div>
+
+
+
+
+        
+
+
+        <!-- Main Div for footer section -->
+    <div id="footer">
+
+            <!-- broken the main Div of footer into different Divs -->
+    
+            <!-- part 1 -->
+            <div id="footer-sub">
+                <h2>From the Creator</h2>
+                <p>This is my first ever E-commerce site that I have made using HTML , Css and Javascript for which I am very thankful to my teachers especially <b class="color">Miss Hira , Sir Daniyal , Sir Arsalan and Sir Tahir</b>  without them it was not possible. So a big thanks to the teachers for making great efforts...</p>
+            </div>
+    
+            <!-- part 2 -->
+            <div id="footer-sub-2">
+                <h2>Our Outlets</h2>
+                <ul>
+                    <li><a href="karachi-location.html">Karachi</a></li>
+                    <li><a href="#">Lahore</a></li>
+                    <li><a href="#">Islamabad</a></li>
+                    <li><a href="#">Hyderabad</a></li>
+                    <li><a href="#">Peshawar</a></li>
+                </ul>
+            </div>
+            <div id="footer-sub-2">
+                    <h2>Social Links</h2>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Yahoo</a></li>
+                        <li><a href="#">Whatsapp Num</a></li>
+                    </ul>
+                </div>
+        </div>
+    <script>
+
+
+        function gotoprod2(prodID){
+            localStorage.setItem("ProdID",prodID);
+            location.href="display-watch.html";
+        }
+    </script>
+    <script src="pop.js"></script>
+</body>
+</html>
